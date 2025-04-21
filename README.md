@@ -8,7 +8,7 @@ This project analyzes my personal financial data in relation to my academic sche
 
 The dataset consists of two primary tables:
 
-1. **Bank Transaction Data** (`data/raw/bank_data.csv`): Contains personal banking transactions from September 2024 to April 2025, including:
+1. **Bank Transaction Data** (`data/raw/bank_data.csv`): Contains personal banking transactions from November 2024 to April 2025, including:
 * Transaction date
 * Description
 * Transaction type
@@ -21,4 +21,4 @@ The dataset consists of two primary tables:
 * Academic event (Regular Classes, Finals Week, Holidays, etc.)
 * Period type (Class Period, Break, Exam Period, etc.)
 
-The dataset spans 7 months (September 1st, 2024 to April 1st, 2025) with daily transactions, providing over ___ instances for analysis
+The dataset spans 7 months (September 1st, 2024 to April 1st, 2025) with daily transactions, providing over 150 instances for analysis

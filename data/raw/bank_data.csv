@@ -1,4 +1,85 @@
-Date,Description,Type,Amount,Current Balance,Status
+Date,Description,Type,Amount,Current balance,Status
+2025-04-01,Mobile Check Deposit,Check Deposit,2000,2617.77,Posted
+2025-03-31,Interest earned,Interest Earned,0.25,617.77,Posted
+2025-03-28,Zelle® Payment to Eme,Direct Payment,-27.00,617.52,Posted
+2025-03-25,DAVES HOT CHICKEN 1307,Debit Card,-29.41,644.52,Posted
+2025-03-25,CLAUDE.AI SUBSCRIPTION,Debit Card,-21.84,673.93,Posted
+2025-03-25,MAVERIK #613,Debit Card,-56.47,695.77,Posted
+2025-03-23,STARBUCKS 800-782-7282,Debit Card,-25.00,752.24,Posted
+2025-03-22,SAFEWAY #0342,Debit Card,-56.84,777.24,Posted
+2025-03-22,STARBUCKS 800-782-7282,Debit Card,-10.00,834.08,Posted
+2025-03-22,STARBUCKS 800-782-7282,Debit Card,-10.00,844.08,Posted
+2025-03-21,Zelle® Payment from Emeranzia Robinson,Direct Payment,270.00,854.08,Posted
+2025-03-20,AMAZON MARKETPLACE,Debit Card,-21.74,584.08,Posted
+2025-03-20,AMAZON RETAIL,Debit Card,-33.82,605.82,Posted
+2025-03-19,JERSEY MIKES ONLINE UC,Debit Card,-18.15,639.64,Posted
+2025-03-17,Zelle® Payment to Eme 3,Direct Payment,-100.00,657.79,Posted
+2025-03-17,Zelle® Payment from Emeranzia Robinson,Direct Payment,600.00,757.79,Posted
+2025-03-16,365 MARKET K 888 432-3,Debit Card,-2.45,157.79,Posted
+2025-03-16,365 MARKET K 888 432-3,Debit Card,-2.73,160.24,Posted
+2025-03-15,HUCKLEBERRY'S #,Debit Card,-33.36,162.97,Posted
+2025-03-14,KFC C748045,Debit Card,-12.00,196.33,Posted
+2025-03-14,CHICK-FIL-A #04481,Debit Card,-15.49,208.33,Posted
+2025-03-14,DAVES HOT CHICKEN 1307,Debit Card,-20.68,223.82,Posted
+2025-03-12,SQ *TACOS EL GUERO,Debit Card,-28.86,244.5,Posted
+2025-03-11,Zelle® Payment from Genevieve Cowen,Direct Payment,40.00,273.36,Posted
+2025-03-11,COMCAST BELLINGHAM,Debit Card,-29.99,233.36,Posted
+2025-03-11,ROBINHOOD,Direct Payment,-20,263.35,Posted
+2025-03-11,ROBINHOOD,Direct Payment,-20,283.35,Posted
+2025-03-09,Zelle® Payment from Dylan Vazquez,Direct Payment,37.28,303.35,Posted
+2025-03-07,PANDA EXPRESS #3544,Debit Card,-21.04,266.07,Posted
+2025-03-07,AMAZON RETAIL,Debit Card,-70.10,287.11,Posted
+2025-03-06,Zelle® Payment to Eme,Direct Payment,-5.00,357.21,Posted
+2025-03-06,Diamond Beauty and Bou,Debit Card,-46.80,362.21,Posted
+2025-03-05,GONZAGA CSTORE,Debit Card,-13.48,409.01,Posted
+2025-03-05,STARBUCKS 800-782-7282,Debit Card,-10.00,422.49,Posted
+2025-03-03,Riot* AN5B64CXPP34,Debit Card,-10.89,432.49,Posted
+2025-03-03,Cooper George,Direct Payment,-1695.63,443.38,Posted
+2025-03-02,CHICK-FIL-A #04481,Debit Card,-22.72,2139.01,Posted
+2025-03-02,INSOMNIA COOKIES - S,Debit Card,-33.25,2161.73,Posted
+2025-03-02,SQ *THOMAS HAMMER COFF,Debit Card,-8.97,2194.98,Posted
+2025-03-02,Zelle® Payment from Samuel Braun,Direct Payment,10.00,2203.95,Posted
+2025-02-28,Interest earned,Interest Earned,0.54,2193.95,Posted
+2025-02-28,COSTCO WHSE #0670,Debit Card,-458.81,2193.41,Posted
+2025-02-28,Zelle® Payment from Emeranzia Robinson,Direct Payment,365.00,2652.22,Posted
+2025-02-28,SQ *THOMAS HAMMER COFF,Debit Card,-15.44,2287.22,Posted
+2025-02-28,CHIPOTLE MEX GR ONLINE,Debit Card,-21.31,2302.66,Posted
+2025-02-28,THE MANGO TREE - SOUTH,Debit Card,-51.60,2323.97,Posted
+2025-02-27,365 MARKET K 888 432-3,Debit Card,-2.73,2375.57,Posted
+2025-02-27,365 MARKET K 888 432-3,Debit Card,-2.45,2378.3,Posted
+2025-02-27,GONZAGA CSTORE,Debit Card,-9.39,2380.75,Posted
+2025-02-26,DOMINO'S 7189,Debit Card,-27.55,2390.14,Posted
+2025-02-26,GONZAGA QDOBA,Debit Card,-11.25,2417.69,Posted
+2025-02-25,PETCO 1217,Debit Card,-57.46,2428.94,Posted
+2025-02-25,365 MARKET K 888 432-3,Debit Card,-2.45,2486.4,Posted
+2025-02-24,Zelle® Payment from Emeranzia Robinson,Direct Payment,500.00,2488.85,Posted
+2025-02-24,SAFEWAY #3255,Debit Card,-35.93,1988.85,Posted
+2025-02-24,EXXON MSO46021,Debit Card,-54.30,2024.78,Posted
+2025-02-24,Zelle® Payment to Eme,Direct Payment,-50.00,2079.08,Posted
+2025-02-24,ROBINHOOD,Direct Payment,-20,2129.08,Posted
+2025-02-24,ROBINHOOD,Direct Payment,-20,2149.08,Posted
+2025-02-23,365 MARKET K 888 432-3,Debit Card,-2.45,2169.08,Posted
+2025-02-23,365 MARKET K 888 432-3,Debit Card,-1.75,2171.53,Posted
+2025-02-23,CHIPOTLE MEX GR ONLINE,Debit Card,-19.89,2173.28,Posted
+2025-02-23,SAFEWAY #3255,Debit Card,-25.76,2193.17,Posted
+2025-02-22,CARUSOS SANDWICHES AN,Debit Card,-30.40,2218.93,Posted
+2025-02-21,SQ *THOMAS HAMMER COFF,Debit Card,-8.97,2249.33,Posted
+2025-02-21,GONZAGA QDOBA,Debit Card,-22.50,2258.3,Posted
+2025-02-20,Zelle® Payment to Eme,Direct Payment,-5.00,2280.8,Posted
+2025-02-20,Mobile Check Deposit,Check Deposit,2000,2285.8,Posted
+2025-02-19,PARKRITE,Debit Card,-5.00,285.8,Posted
+2025-02-19,AMAZON RETAIL,Debit Card,-20.64,290.8,Posted
+2025-02-18,VENMO,Direct Payment,-22,311.44,Posted
+2025-02-17,SQ *PANHANDLE CONE & C,Debit Card,-10.60,333.44,Posted
+2025-02-17,GONZAGA CSTORE,Debit Card,-5.99,344.04,Posted
+2025-02-17,GONZAGA QDOBA,Debit Card,-11.25,350.03,Posted
+2025-02-17,MIZUNA,Debit Card,-118.59,361.28,Posted
+2025-02-17,SQ *HEART OF GOLD JEWE,Debit Card,-106.00,479.87,Posted
+2025-02-15,Zelle® Payment from Emeranzia Robinson,Direct Payment,30.00,585.87,Posted
+2025-02-15,GONZAGA CSTORE,Debit Card,-9.28,555.87,Posted
+2025-02-14,CHIPOTLE MEX GR ONLINE,Debit Card,-14.61,565.15,Posted
+2025-02-13,SAFEWAY #3255,Debit Card,-26.68,579.76,Posted
+2025-02-12,GONZAGA QDOBA,Debit Card,-11.25,606.44,Posted
 2025-02-11,KING OF RAMEN,Debit Card,-40.13,617.69,Posted
 2025-02-10,GONZAGA UNIV  STAR,Debit Card,-9.50,657.82,Posted
 2025-02-09,SQ *THOMAS HAMMER COFF,Debit Card,-8.20,667.32,Posted
