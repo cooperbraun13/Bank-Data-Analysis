@@ -1,82 +1,82 @@
-date,academic_event,period_type
-2025-04-01,Regular Classes,Class Period
-2025-03-31,Regular Classes,Class Period
+date,academic_event_type
+2025-04-01,Regular Classes,Lecture
+2025-03-31,Regular Classes,Lecture
 2025-03-30,Weekend,No Class
 2025-03-29,Weekend,No Class
-2025-03-28,Regular Classes,Class Period
-2025-03-27,Regular Classes,Exam Period
-2025-03-26,Regular Classes,Class Period
-2025-03-25,Regular Classes,Class Period
-2025-03-24,Regular Classes,Class Period
+2025-03-28,Regular Classes,Lecture
+2025-03-27,Regular Classes,Exam
+2025-03-26,Regular Classes,Lecture
+2025-03-25,Regular Classes,Lecture
+2025-03-24,Regular Classes,Lecture
 2025-03-23,Weekend,No Class
 2025-03-22,Weekend,No Class
-2025-03-21,Regular Classes,Class Period
-2025-03-20,Regular Classes,Quiz Period
-2025-03-19,Regular Classes,Class Period
-2025-03-18,Regular Classes,Quiz Period
-2025-03-17,Regular Classes,Class Period
+2025-03-21,Regular Classes,Lecture
+2025-03-20,Regular Classes,Quiz
+2025-03-19,Regular Classes,Lecture
+2025-03-18,Regular Classes,Quiz
+2025-03-17,Regular Classes,Lecture
 2025-03-16,Weekend,No Class
 2025-03-15,Weekend,No Class
-2025-03-14,Spring Vacation, Break
-2025-03-13,Spring Vacation, Break
-2025-03-12,Spring Vacation, Break
-2025-03-11,Spring Vacation, Break
-2025-03-10,Spring Vacation, Break
+2025-03-14,Spring Vacation,Break
+2025-03-13,Spring Vacation,Break
+2025-03-12,Spring Vacation,Break
+2025-03-11,Spring Vacation,Break
+2025-03-10,Spring Vacation,Break
 2025-03-09,Weekend,No Class
 2025-03-08,Weekend,No Class
-2025-03-07,Regular Classes,Exam Period
-2025-03-06,Regular Classes,Class Period
-2025-03-05,Regular Classes,Class Period
-2025-03-04,Regular Classes,Quiz Period
-2025-03-03,Regular Classes,Class Period
+2025-03-07,Regular Classes,Exam
+2025-03-06,Regular Classes,Lecture
+2025-03-05,Regular Classes,Lecture
+2025-03-04,Regular Classes,Quiz
+2025-03-03,Regular Classes,Lecture
 2025-03-02,Weekend,No Class
 2025-03-01,Weekend,No Class
-2025-02-28,Regular Classes,Class Period
-2025-02-27,Regular Classes,Quiz Period
-2025-02-26,Regular Classes,Class Period
-2025-02-25,Regular Classes,Quiz Period
-2025-02-24,Regular Classes,Class Period
+2025-02-28,Regular Classes,Lecture
+2025-02-27,Regular Classes,Quiz
+2025-02-26,Regular Classes,Lecture
+2025-02-25,Regular Classes,Quiz
+2025-02-24,Regular Classes,Lecture
 2025-02-23,Weekend,No Class
 2025-02-22,Weekend,No Class
-2025-02-21,Regular Classes,Class Period
-2025-02-20,Regular Classes,Quiz Period
-2025-02-19,Regular Classes,Class Period
-2025-02-18,Regular Classes,Class Period
+2025-02-21,Regular Classes,Lecture
+2025-02-20,Regular Classes,Quiz
+2025-02-19,Regular Classes,Lecture
+2025-02-18,Regular Classes,Lecture
 2025-02-17,President Holiday,Break
 2025-02-16,Weekend,No Class
 2025-02-15,Weekend,No Class
-2025-02-14,Regular Classes,Class Period
-2025-02-13,Regular Classes,Exam Period
-2025-02-12,Regular Classes,Exam Period
-2025-02-11,Regular Classes,Class Period
-2025-02-10,Regular Classes,Class Period
+2025-02-14,Regular Classes,Lecture
+2025-02-13,Regular Classes,Exam
+2025-02-12,Regular Classes,Exam
+2025-02-11,Regular Classes,Lecture
+2025-02-10,Regular Classes,Lecture
 2025-02-09,Weekend,No Class
 2025-02-08,Weekend,No Class
-2025-02-07,Regular Classes,Class Period
-2025-02-06,Regular Classes,Quiz Period
-2025-02-05,Regular Classes,Class Period
-2025-02-04,Regular Classes,Quiz Period
-2025-02-03,Regular Classes,Quiz Period
+2025-02-07,Regular Classes,Lecture
+2025-02-06,Regular Classes,Quiz
+2025-02-05,Regular Classes,Lecture
+2025-02-04,Regular Classes,Quiz
+2025-02-03,Regular Classes,Quiz
 2025-02-02,Weekend,No Class
 2025-02-01,Weekend,No Class
-2025-01-31,Regular Classes,Class Period
-2025-01-30,Regular Classes,Class Period
-2025-01-29,Regular Classes,Class Period
-2025-01-28,Regular Classes,Quiz Period
-2025-01-27,Regular Classes,Class Period
+2025-01-31,Regular Classes,Lecture
+2025-01-30,Regular Classes,Lecture
+2025-01-29,Regular Classes,Lecture
+2025-01-28,Regular Classes,Quiz
+2025-01-27,Regular Classes,Lecture
 2025-01-26,Weekend,No Class
 2025-01-25,Weekend,No Class
-2025-01-24,Regular Classes,Class Period
-2025-01-23,Regular Classes,Quiz Period
-2025-01-22,Regular Classes,Class Period
-2025-01-21,Regular Classes,Quiz Period
+2025-01-24,Regular Classes,Lecture
+2025-01-23,Regular Classes,Quiz
+2025-01-22,Regular Classes,Lecture
+2025-01-21,Regular Classes,Quiz
 2025-01-20,MLK Holiday,Break
 2025-01-19,Weekend,No Class
 2025-01-18,Weekend,No Class
-2025-01-17,Regular Classes,Class Period
-2025-01-16,Regular Classes,Class Period
-2025-01-15,Regular Classes,Class Period
-2025-01-14,Regular Classes,Class Period
+2025-01-17,Regular Classes,Lecture
+2025-01-16,Regular Classes,Lecture
+2025-01-15,Regular Classes,Lecture
+2025-01-14,Regular Classes,Lecture
 2025-01-13,Christmas Holiday,Break
 2025-01-12,Christmas Holiday,Break
 2025-01-11,Christmas Holiday,Break
@@ -108,46 +108,46 @@ date,academic_event,period_type
 2024-12-16,Christmas Holiday,Break
 2024-12-15,Weekend,No Class
 2024-12-14,Weekend,No Class
-2024-12-13,Finals Week, Exam Period
-2024-12-12,Finals Week, Exam Period
-2024-12-11,Finals Week, Exam Period
-2024-12-10,Finals Week, Exam Period
-2024-12-09,Study Day, Exam Period
-2024-12-08,Study Day, Exam Period
-2024-12-07,Study Day, Exam Period
-2024-12-06,Regular Classes,Class Period
-2024-12-05,Regular Classes,Class Period
-2024-12-04,Regular Classes,Class Period
-2024-12-03,Regular Classes,Class Period
-2024-12-02,Regular Classes,Class Period
+2024-12-13,Finals Week, Exam
+2024-12-12,Finals Week, Exam
+2024-12-11,Finals Week, Exam
+2024-12-10,Finals Week, Exam
+2024-12-09,Study Day, Exam
+2024-12-08,Study Day, Exam
+2024-12-07,Study Day, Exam
+2024-12-06,Regular Classes,Lecture
+2024-12-05,Regular Classes,Lecture
+2024-12-04,Regular Classes,Lecture
+2024-12-03,Regular Classes,Lecture
+2024-12-02,Regular Classes,Lecture
 2024-12-01,Weekend,No Class
 2024-11-30,Weekend,No Class
 2024-11-29,Thanksgiving Holiday,Break
 2024-11-28,Thanksgiving Holiday,Break
 2024-11-27,Thanksgiving Holiday,Break
-2024-11-26,Regular Classes,Class Period
-2024-11-25,Regular Classes,Class Period
+2024-11-26,Regular Classes,Lecture
+2024-11-25,Regular Classes,Lecture
 2024-11-24,Weekend,No Class
 2024-11-23,Weekend,No Class
-2024-11-22,Regular Classes,Class Period
-2024-11-21,Regular Classes,Exam Period
-2024-11-20,Regular Classes,Quiz Period
-2024-11-19,Regular Classes,Class Period
-2024-11-18,Regular Classes,Class Period
+2024-11-22,Regular Classes,Lecture
+2024-11-21,Regular Classes,Exam
+2024-11-20,Regular Classes,Quiz
+2024-11-19,Regular Classes,Lecture
+2024-11-18,Regular Classes,Lecture
 2024-11-17,Weekend,No Class
 2024-11-16,Weekend,No Class
-2024-11-15,Regular Classes,Class Period
-2024-11-14,Regular Classes,Class Period
-2024-11-13,Regular Classes,Exam Period
-2024-11-12,Regular Classes,Class Period
-2024-11-11,Regular Classes,Quiz Period
+2024-11-15,Regular Classes,Lecture
+2024-11-14,Regular Classes,Lecture
+2024-11-13,Regular Classes,Exam
+2024-11-12,Regular Classes,Lecture
+2024-11-11,Regular Classes,Quiz
 2024-11-10,Weekend,No Class
 2024-11-09,Weekend,No Class
-2024-11-08,Regular Classes,Class Period
-2024-11-07,Regular Classes,Class Period
-2024-11-06,Regular Classes,Class Period
-2024-11-05,Regular Classes,Class Period
-2024-11-04,Regular Classes,Class Period
+2024-11-08,Regular Classes,Lecture
+2024-11-07,Regular Classes,Lecture
+2024-11-06,Regular Classes,Lecture
+2024-11-05,Regular Classes,Lecture
+2024-11-04,Regular Classes,Lecture
 2024-11-03,Weekend,No Class
 2024-11-02,Weekend,No Class
-2024-11-01,Regular Classes,Class Period
+2024-11-01,Regular Classes,Lecture
