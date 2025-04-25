@@ -162,13 +162,25 @@ def get_period_type(event_type):
     """ 
     Categorize academic period types
     """
-    
+    if "Exam" in event_type or "Final" in event_type:
+        return "Exam Period"
+    elif "Break" in event_type or "Holiday" in event_type:
+        return "Break"
+    elif "Regular Classes" in event_type:
+        return "Class Period"
+    else:
+        return "Other"
     
 def merge_datasets(bank_df, academic_df):
     """
     Merges banking and academic datasets 
     """
+    merged_df = pd.merge(bank_df, academic_df, left_on="Date", right_on="Date", how="left")
     
+    # Clean columns
+    merged_df.drop(["Date"], axis=1, inplace=True)
+    
+    return merged_df
     
 def plot_spending_distribution(bank_df, amount_limit=200):
     """ 
