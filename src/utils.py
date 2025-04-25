@@ -149,7 +149,14 @@ def create_spending_bins(amount):
     """ 
     Creates spending bins for classification
     """
-    
+    if amount < 10:
+        return "Small (Less than $10)"
+    elif amount < 50:
+        return "Medium ($10-$50)"
+    elif amount < 100:
+        return "Large ($50-$100)"
+    else:
+        return "Very Large (More than $100)"
     
 def get_period_type(event_type):
     """ 
