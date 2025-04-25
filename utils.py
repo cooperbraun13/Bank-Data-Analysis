@@ -53,7 +53,9 @@ def clean_academic_data(df):
     df["day_of_week"] = df["date"].dt.day_name()
     
     # Create period type
-    df["period_type"] = df["academic_event_type"].apply(get_period_type)
+    df["period_type"] = df.apply(
+        lambda row: get_period_type(row["academic_event_type"], row["class_activity"]), axis=1
+    )
     
     return df
     
@@ -158,15 +160,24 @@ def create_spending_bins(amount):
     else:
         return "Very Large (More than $100)"
     
-def get_period_type(event_type):
+def get_period_type(event_type, class_activity):
     """ 
     Categorize academic period types
     """
-    if "Exam" in event_type or "Final" in event_type or "Quiz" in event_type:
+    event_type = event_type.lower()
+    class_activity = class_activity.lower()
+    
+    if "exam" in class_activity or "exam" in event_type or "finals week" in event_type:
         return "Assessment Period"
-    elif "Break" in event_type or "Holiday" in event_type:
+    elif "quiz" in class_activity:
+        return "Assessment Period"
+    elif "break" in event_type or "holiday" in event_type or "vacation" in event_type:
         return "Break"
-    elif "Lecture" in event_type:
+    elif "weekend" in event_type:
+        return "Weekend"
+    elif "study day" in event_type:
+        return "Assessment Period"
+    elif "lecture" in class_activity:
         return "Class Period"
     else:
         return "Other"
@@ -175,10 +186,11 @@ def merge_datasets(bank_df, academic_df):
     """
     Merges banking and academic datasets 
     """
-    merged_df = pd.merge(bank_df, academic_df, left_on="Date", right_on="Date", how="left")
+    merged_df = pd.merge(bank_df, academic_df, left_on="Date", right_on="date", how="left")
     
     # Clean columns
-    merged_df.drop(["Date"], axis=1, inplace=True)
+    if "date" in merged_df.columns:
+        merged_df.drop(["date"], axis=1, inplace=True)
     
     return merged_df
     
@@ -191,7 +203,7 @@ def plot_spending_distribution(bank_df, amount_limit=200):
     plt.figure(figsize=(10, 6))
     plt.hist(debit_data["Absolute_Amount"], bins=50, edgecolor="black")
     plt.title("Distribution of Spending Amounts", fontsize=16)
-    plt.xlabel("Amount ($), fontsize=12")
+    plt.xlabel("Amount ($)", fontsize=12)
     plt.ylabel("Frequency", fontsize=12)
     plt.xlim(0, amount_limit)
     plt.grid(axis="y", alpha=0.3)
@@ -226,7 +238,7 @@ def plot_spending_by_day(bank_df):
     
     plt.figure(figsize=(12, 6))
     spending_by_day.plot(kind="bar", color="lightcoral", edgecolor="black")
-    plt.title("Average Spneding by Day of Week", fontsize=16)
+    plt.title("Average Spending by Day of Week", fontsize=16)
     plt.xlabel("Day of Week", fontsize=12)
     plt.ylabel("Average Spending ($)", fontsize=12)
     plt.xticks(rotation=45)
