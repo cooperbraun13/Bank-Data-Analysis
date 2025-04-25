@@ -63,12 +63,16 @@ def categorize_transaction(description):
     """
     description = description.lower()
     
+    # Make sure safeway fuel doesn't end up in groceries category
+    if "safeway fuel" in description:
+        return "Transportation"
+    
     # Dining out and food/snacks
-    dining_keywords = ["daves", "starbucks", "jersey", "chick", "kfc", "daves"
-                       "taco", "panda", "cookie", "thomas hammer", "chipotle",
-                       "mango", "domino", "qdoba", "caruso", "mizuna", "ramen",
-                       "mcdonald", "coffee", "lebanon", "teriyaki", "brew", "thai",
-                       "bistro", "crumbl", "wing", "cstore"]
+    dining_keywords = ["daves", "starbucks", "jersey", "chick", "kfc", "taco", 
+                       "panda", "cookie", "thomas hammer", "chipotle", "mango", 
+                       "domino", "qdoba", "caruso", "mizuna", "ramen", "mcdonald", 
+                       "coffee", "lebanon", "teriyaki", "brew", "thai", "bistro", 
+                       "crumbl", "wing", "cstore"]
     
     # Grocery stores
     grocery_keywords = ["groceries", "market", "huckleberry", "costco", "safeway",
@@ -80,7 +84,7 @@ def categorize_transaction(description):
     
     # Transportation and gas
     transport_keywords = ["maverik", "fuel", "exxon", "conoc", "marathon petro",
-                          "gas", "pmusa", "diamond parking", "parkrite", "wsdot"]
+                          "gas", "wsdot"]
     
     # Utilities and bills
     utilities_keywords = ["comcast", "cashnet", "city of spokane"]
@@ -91,7 +95,55 @@ def categorize_transaction(description):
     
     # Subscriptions
     subscription_keywords = ["subscr"]
-    print(subscription_keywords)
+    
+    # Parking
+    parking_keywords = ["parkrite", "diamond parking", "pmusa"]
+    
+    # Rent
+    rent_keywords = ["cooper george"]
+    
+    # Check dining keywords
+    for keyword in dining_keywords:
+        if keyword in description:
+            return "Dining"
+    
+    # Check transportation keywords
+    for keyword in transport_keywords:
+        if keyword in description:
+            return "Transportation"
+        
+    # Check grocery keywords
+    for keyword in grocery_keywords:
+        if keyword in description:
+            return "Groceries"
+        
+    # Check utilities keywords
+    for keyword in utilities_keywords:
+        if keyword in description:
+            return "Utilities"
+        
+    # Check banking keywords
+    for keyword in banking_keywords:
+        if keyword in description:
+            return "Banking & Investments"
+        
+    # Check subscription keywords
+    for keyword in subscription_keywords:
+        if keyword in description:
+            return "Subscriptions"
+        
+    # Check parking keywords
+    for keyword in parking_keywords:
+        if keyword in description:
+            return "Parking"
+        
+    # Check rent keywords
+    for keyword in rent_keywords:
+        if keyword in description:
+            return "Rent"
+        
+    # If theres no match
+    return "Other"
     
 def create_spending_bins(amount):
     """ 
