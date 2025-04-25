@@ -186,13 +186,25 @@ def plot_spending_distribution(bank_df, amount_limit=200):
     """ 
     Plots spending distribution
     """
+    debit_data = bank_df[bank_df["Transaction_Type"] == "Debit"]
     
+    plt.figure(figsize=(10, 6))
+    plt.hist(debit_data["Absolute_Amount"], bins=50, edgecolor="black")
+    plt.title("Distribution of Spending Amounts", fontsize=16)
+    plt.xlabel("Amount ($), fontsize=12")
+    plt.ylabel("Frequency", fontsize=12)
+    plt.xlim(0, amount_limit)
+    plt.grid(axis="y", alpha=0.3)
+    plt.show()
     
 def plot_spending_by_category(bank_df):
     """ 
     Plots total spending by category
     """
+    debit_data = bank_df[bank_df["Transaction_Type"] == "Debit"]
+    spending_by_category = debit_data.groupby("Category")["Absolute_Amount"].sum().sort_values(ascending=False)
     
+    plt.figure(figsize=(12, 6))
     
 def plot_spending_by_day(bank_df):
     """ 
