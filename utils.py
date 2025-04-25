@@ -205,18 +205,51 @@ def plot_spending_by_category(bank_df):
     spending_by_category = debit_data.groupby("Category")["Absolute_Amount"].sum().sort_values(ascending=False)
     
     plt.figure(figsize=(12, 6))
+    spending_by_category.plot(kind="bar", color="skyblue", edgecolor="black")
+    plt.title("Total Spending by Category", fontsize=16)
+    plt.xlabel("Category", fontsize=12)
+    plt.ylabel("Total Spending ($)", fontsize=12)
+    plt.xticks(rotation=45)
+    plt.grid(axis="y", alpha=0.3)
+    plt.tight_layout()
+    plt.show()
     
 def plot_spending_by_day(bank_df):
     """ 
     Plots average spending by day of the week
     """
+    debit_data = bank_df[bank_df["Transaction_Type"] == "Debit"]
+    spending_by_day = debit_data.groupby("Day_of_Week")["Absolute_Amount"].mean()
     
+    day_order = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    spending_by_day = spending_by_day.reindex(day_order)
+    
+    plt.figure(figsize=(12, 6))
+    spending_by_day.plot(kind="bar", color="lightcoral", edgecolor="black")
+    plt.title("Average Spneding by Day of Week", fontsize=16)
+    plt.xlabel("Day of Week", fontsize=12)
+    plt.ylabel("Average Spending ($)", fontsize=12)
+    plt.xticks(rotation=45)
+    plt.grid(axis="y", alpha=0.3)
+    plt.tight_layout()
+    plt.show()
     
 def plot_spending_by_period(merged_df):
     """ 
     Plots average spending by academic period
     """
+    merged_debit = merged_df[merged_df["Transaction_Type"] == "Debit"]
+    spending_by_period = merged_debit.groupby("period_type")["Absolute_Amount"].mean()
     
+    plt.figure(figsize=(10, 6))
+    spending_by_period.plot(kind="bar", color="lightgreen", edgecolor="black")
+    plt.title("Average Spending by Academic Period", fontsize=16)
+    plt.xlabel("Academic Period Type", fontsize=12)
+    plt.ylabel("Average Spending ($)", fontsize=12)
+    plt.xticks(rotation=45)
+    plt.grid(axis="y", alpha=0.3)
+    plt.tight_layout()
+    plt.show()
     
 def perform_hypothesis_test(merged_df):
     """ 
