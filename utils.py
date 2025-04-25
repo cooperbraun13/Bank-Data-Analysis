@@ -162,11 +162,11 @@ def get_period_type(event_type):
     """ 
     Categorize academic period types
     """
-    if "Exam" in event_type or "Final" in event_type:
-        return "Exam Period"
+    if "Exam" in event_type or "Final" in event_type or "Quiz" in event_type:
+        return "Assessment Period"
     elif "Break" in event_type or "Holiday" in event_type:
         return "Break"
-    elif "Regular Classes" in event_type:
+    elif "Lecture" in event_type:
         return "Class Period"
     else:
         return "Other"
@@ -250,9 +250,3 @@ def plot_spending_by_period(merged_df):
     plt.grid(axis="y", alpha=0.3)
     plt.tight_layout()
     plt.show()
-    
-def perform_hypothesis_test(merged_df):
-    """ 
-    Performs hypothesis test comparing exam and class period spending
-    """
-    
