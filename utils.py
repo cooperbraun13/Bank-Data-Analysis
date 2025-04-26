@@ -194,7 +194,7 @@ def merge_datasets(bank_df, academic_df):
     
     return merged_df
     
-def plot_spending_distribution(bank_df, amount_limit=200):
+def plot_spending_distribution(bank_df, amount_limit=2000):
     """ 
     Plots spending distribution
     """
