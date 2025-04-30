@@ -329,16 +329,41 @@ def get_period_spending_statistics(merged_df):
     
     return period_stats, period_category
 
-def run_hypothesis_tests(merged_df):
+def test_weekend_vs_weekday_spending(merged_df):
     """ 
-    Runs three statistical hypothesis tests on spending data
+    Performs t-test comparing weekend vs weekday spending and returns statistics for two-tailed test
     """
-    debit_data = merged_df[merged_df["Transaction Type"] == "Debit"]
+    debit_data = merged_df[merged_df["Transaction_Type"] == "Debit"]
     
-    # Test 1: Assessment periods vs Class periods
+    # Extract spending data
+    weekend_spending = debit_data[debit_data["period_type"] == "Weekend"]["Absolute_Amount"]
+    weekday_spending = debit_data[~debit_data["period_type"].isin(["Weekend", "Break"])]["Absolute_Amount"]
     
+    # Basic statistics
+    weekend_mean = weekend_spending.mean()
+    weekday_mean = weekday_spending.mean()
+    weekend_std = weekend_spending.std()
+    weekday_std = weekday_spending.std()
+    weekend_n = len(weekend_spending)
+    weekday_n = len(weekday_spending)
     
-    # Test 2: Weekend vs Weekday periods
+    # Perform t-test, two-tailed
+    t_stat, p_value = stats.ttest_ind(weekday_spending, weekend_spending, equal_var=False)
     
+    # Critical value, two-tailed, alpha = 0.05
+    df = min(weekend_n - 1, weekday_n - 1)
+    t_critical = stats.t.ppf(0.975, df)
     
-    # Test 3: Break vs Regular periods
+    return {
+        "weekend_mean": weekend_mean,
+        "weekday_mean": weekday_mean,
+        "weekend_std": weekend_std, 
+        "weekday_std": weekday_std,
+        "weekend_n": weekend_n,
+        "weekday_n": weekday_n,
+        "t_stat": t_stat,
+        "p_value": p_value,
+        "t_critical": t_critical,
+        "df": df
+    }
+    
