@@ -187,15 +187,18 @@ def get_period_type(event_type, class_activity):
     else:
         return "Other"
     
-def merge_datasets(bank_df, academic_df):
+def merge_datasets(bank_df, academic_df, output_filename="merged_data.csv"):
     """
-    Merges banking and academic datasets 
+    Merges banking and academic datasets and saves the result to a csv file
     """
     merged_df = pd.merge(bank_df, academic_df, left_on="Date", right_on="date", how="left")
     
     # Clean columns
     if "date" in merged_df.columns:
         merged_df.drop(["date"], axis=1, inplace=True)
+        
+    # Save the merged DataFrame to a CSV file
+    merged_df.to_csv(output_filename, index=False)
     
     return merged_df
     

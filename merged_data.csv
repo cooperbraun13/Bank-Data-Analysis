@@ -1,0 +1,206 @@
+Date,Description,Type,Amount,Current balance,Status,Transaction_Type,Absolute_Amount,Day_of_Week,Month,Category,Spending_Bin,academic_event_type,class_activity,day_of_week,period_type
+2025-04-01,Mobile Check Deposit,Check Deposit,2000.0,2617.77,Posted,Credit,2000.0,Tuesday,April,Banking & Investments,Very Large (More than $100),Regular Classes,Lecture,Tuesday,Class Period
+2025-03-31,Interest earned,Interest Earned,0.25,617.77,Posted,Credit,0.25,Monday,March,Banking & Investments,Small (Less than $10),Regular Classes,Lecture,Monday,Class Period
+2025-03-28,Zelle® Payment to Eme,Direct Payment,-27.0,617.52,Posted,Debit,27.0,Friday,March,Banking & Investments,Medium ($10-$50),Regular Classes,Lecture,Friday,Class Period
+2025-03-25,DAVES HOT CHICKEN 1307,Debit Card,-29.41,644.52,Posted,Debit,29.41,Tuesday,March,Dining,Medium ($10-$50),Regular Classes,Lecture,Tuesday,Class Period
+2025-03-25,CLAUDE.AI SUBSCRIPTION,Debit Card,-21.84,673.93,Posted,Debit,21.84,Tuesday,March,Subscriptions,Medium ($10-$50),Regular Classes,Lecture,Tuesday,Class Period
+2025-03-25,MAVERIK #613,Debit Card,-56.47,695.77,Posted,Debit,56.47,Tuesday,March,Transportation,Large ($50-$100),Regular Classes,Lecture,Tuesday,Class Period
+2025-03-23,STARBUCKS 800-782-7282,Debit Card,-25.0,752.24,Posted,Debit,25.0,Sunday,March,Dining,Medium ($10-$50),Weekend,No Class,Sunday,Weekend
+2025-03-22,SAFEWAY #0342,Debit Card,-56.84,777.24,Posted,Debit,56.84,Saturday,March,Groceries,Large ($50-$100),Weekend,No Class,Saturday,Weekend
+2025-03-22,STARBUCKS 800-782-7282,Debit Card,-10.0,834.08,Posted,Debit,10.0,Saturday,March,Dining,Medium ($10-$50),Weekend,No Class,Saturday,Weekend
+2025-03-22,STARBUCKS 800-782-7282,Debit Card,-10.0,844.08,Posted,Debit,10.0,Saturday,March,Dining,Medium ($10-$50),Weekend,No Class,Saturday,Weekend
+2025-03-21,Zelle® Payment from Emeranzia Robinson,Direct Payment,270.0,854.08,Posted,Credit,270.0,Friday,March,Banking & Investments,Very Large (More than $100),Regular Classes,Lecture,Friday,Class Period
+2025-03-20,AMAZON MARKETPLACE,Debit Card,-21.74,584.08,Posted,Debit,21.74,Thursday,March,Groceries,Medium ($10-$50),Regular Classes,Quiz,Thursday,Assessment Period
+2025-03-20,AMAZON RETAIL,Debit Card,-33.82,605.82,Posted,Debit,33.82,Thursday,March,Other,Medium ($10-$50),Regular Classes,Quiz,Thursday,Assessment Period
+2025-03-19,JERSEY MIKES ONLINE UC,Debit Card,-18.15,639.64,Posted,Debit,18.15,Wednesday,March,Dining,Medium ($10-$50),Regular Classes,Lecture,Wednesday,Class Period
+2025-03-17,Zelle® Payment to Eme 3,Direct Payment,-100.0,657.79,Posted,Debit,100.0,Monday,March,Banking & Investments,Very Large (More than $100),Regular Classes,Lecture,Monday,Class Period
+2025-03-17,Zelle® Payment from Emeranzia Robinson,Direct Payment,600.0,757.79,Posted,Credit,600.0,Monday,March,Banking & Investments,Very Large (More than $100),Regular Classes,Lecture,Monday,Class Period
+2025-03-16,365 MARKET K 888 432-3,Debit Card,-2.45,157.79,Posted,Debit,2.45,Sunday,March,Groceries,Small (Less than $10),Weekend,No Class,Sunday,Weekend
+2025-03-16,365 MARKET K 888 432-3,Debit Card,-2.73,160.24,Posted,Debit,2.73,Sunday,March,Groceries,Small (Less than $10),Weekend,No Class,Sunday,Weekend
+2025-03-15,HUCKLEBERRY'S #,Debit Card,-33.36,162.97,Posted,Debit,33.36,Saturday,March,Groceries,Medium ($10-$50),Weekend,No Class,Saturday,Weekend
+2025-03-14,KFC C748045,Debit Card,-12.0,196.33,Posted,Debit,12.0,Friday,March,Dining,Medium ($10-$50),Spring Vacation,Break,Friday,Break
+2025-03-14,CHICK-FIL-A #04481,Debit Card,-15.49,208.33,Posted,Debit,15.49,Friday,March,Dining,Medium ($10-$50),Spring Vacation,Break,Friday,Break
+2025-03-14,DAVES HOT CHICKEN 1307,Debit Card,-20.68,223.82,Posted,Debit,20.68,Friday,March,Dining,Medium ($10-$50),Spring Vacation,Break,Friday,Break
+2025-03-12,SQ *TACOS EL GUERO,Debit Card,-28.86,244.5,Posted,Debit,28.86,Wednesday,March,Dining,Medium ($10-$50),Spring Vacation,Break,Wednesday,Break
+2025-03-11,Zelle® Payment from Genevieve Cowen,Direct Payment,40.0,273.36,Posted,Credit,40.0,Tuesday,March,Banking & Investments,Medium ($10-$50),Spring Vacation,Break,Tuesday,Break
+2025-03-11,COMCAST BELLINGHAM,Debit Card,-29.99,233.36,Posted,Debit,29.99,Tuesday,March,Utilities,Medium ($10-$50),Spring Vacation,Break,Tuesday,Break
+2025-03-11,ROBINHOOD,Direct Payment,-20.0,263.35,Posted,Debit,20.0,Tuesday,March,Banking & Investments,Medium ($10-$50),Spring Vacation,Break,Tuesday,Break
+2025-03-11,ROBINHOOD,Direct Payment,-20.0,283.35,Posted,Debit,20.0,Tuesday,March,Banking & Investments,Medium ($10-$50),Spring Vacation,Break,Tuesday,Break
+2025-03-09,Zelle® Payment from Dylan Vazquez,Direct Payment,37.28,303.35,Posted,Credit,37.28,Sunday,March,Banking & Investments,Medium ($10-$50),Weekend,No Class,Sunday,Weekend
+2025-03-07,PANDA EXPRESS #3544,Debit Card,-21.04,266.07,Posted,Debit,21.04,Friday,March,Dining,Medium ($10-$50),Regular Classes,Exam,Friday,Assessment Period
+2025-03-07,AMAZON RETAIL,Debit Card,-70.1,287.11,Posted,Debit,70.1,Friday,March,Other,Large ($50-$100),Regular Classes,Exam,Friday,Assessment Period
+2025-03-06,Zelle® Payment to Eme,Direct Payment,-5.0,357.21,Posted,Debit,5.0,Thursday,March,Banking & Investments,Small (Less than $10),Regular Classes,Lecture,Thursday,Class Period
+2025-03-06,Diamond Beauty and Bou,Debit Card,-46.8,362.21,Posted,Debit,46.8,Thursday,March,Other,Medium ($10-$50),Regular Classes,Lecture,Thursday,Class Period
+2025-03-05,GONZAGA CSTORE,Debit Card,-13.48,409.01,Posted,Debit,13.48,Wednesday,March,Dining,Medium ($10-$50),Regular Classes,Lecture,Wednesday,Class Period
+2025-03-05,STARBUCKS 800-782-7282,Debit Card,-10.0,422.49,Posted,Debit,10.0,Wednesday,March,Dining,Medium ($10-$50),Regular Classes,Lecture,Wednesday,Class Period
+2025-03-03,Riot* AN5B64CXPP34,Debit Card,-10.89,432.49,Posted,Debit,10.89,Monday,March,Other,Medium ($10-$50),Regular Classes,Lecture,Monday,Class Period
+2025-03-03,Cooper George,Direct Payment,-1695.63,443.38,Posted,Debit,1695.63,Monday,March,Rent,Very Large (More than $100),Regular Classes,Lecture,Monday,Class Period
+2025-03-02,CHICK-FIL-A #04481,Debit Card,-22.72,2139.01,Posted,Debit,22.72,Sunday,March,Dining,Medium ($10-$50),Weekend,No Class,Sunday,Weekend
+2025-03-02,INSOMNIA COOKIES - S,Debit Card,-33.25,2161.73,Posted,Debit,33.25,Sunday,March,Dining,Medium ($10-$50),Weekend,No Class,Sunday,Weekend
+2025-03-02,SQ *THOMAS HAMMER COFF,Debit Card,-8.97,2194.98,Posted,Debit,8.97,Sunday,March,Dining,Small (Less than $10),Weekend,No Class,Sunday,Weekend
+2025-03-02,Zelle® Payment from Samuel Braun,Direct Payment,10.0,2203.95,Posted,Credit,10.0,Sunday,March,Banking & Investments,Medium ($10-$50),Weekend,No Class,Sunday,Weekend
+2025-02-28,Interest earned,Interest Earned,0.54,2193.95,Posted,Credit,0.54,Friday,February,Banking & Investments,Small (Less than $10),Regular Classes,Lecture,Friday,Class Period
+2025-02-28,COSTCO WHSE #0670,Debit Card,-458.81,2193.41,Posted,Debit,458.81,Friday,February,Groceries,Very Large (More than $100),Regular Classes,Lecture,Friday,Class Period
+2025-02-28,Zelle® Payment from Emeranzia Robinson,Direct Payment,365.0,2652.22,Posted,Credit,365.0,Friday,February,Banking & Investments,Very Large (More than $100),Regular Classes,Lecture,Friday,Class Period
+2025-02-28,SQ *THOMAS HAMMER COFF,Debit Card,-15.44,2287.22,Posted,Debit,15.44,Friday,February,Dining,Medium ($10-$50),Regular Classes,Lecture,Friday,Class Period
+2025-02-28,CHIPOTLE MEX GR ONLINE,Debit Card,-21.31,2302.66,Posted,Debit,21.31,Friday,February,Dining,Medium ($10-$50),Regular Classes,Lecture,Friday,Class Period
+2025-02-28,THE MANGO TREE - SOUTH,Debit Card,-51.6,2323.97,Posted,Debit,51.6,Friday,February,Dining,Large ($50-$100),Regular Classes,Lecture,Friday,Class Period
+2025-02-27,365 MARKET K 888 432-3,Debit Card,-2.73,2375.57,Posted,Debit,2.73,Thursday,February,Groceries,Small (Less than $10),Regular Classes,Quiz,Thursday,Assessment Period
+2025-02-27,365 MARKET K 888 432-3,Debit Card,-2.45,2378.3,Posted,Debit,2.45,Thursday,February,Groceries,Small (Less than $10),Regular Classes,Quiz,Thursday,Assessment Period
+2025-02-27,GONZAGA CSTORE,Debit Card,-9.39,2380.75,Posted,Debit,9.39,Thursday,February,Dining,Small (Less than $10),Regular Classes,Quiz,Thursday,Assessment Period
+2025-02-26,DOMINO'S 7189,Debit Card,-27.55,2390.14,Posted,Debit,27.55,Wednesday,February,Dining,Medium ($10-$50),Regular Classes,Lecture,Wednesday,Class Period
+2025-02-26,GONZAGA QDOBA,Debit Card,-11.25,2417.69,Posted,Debit,11.25,Wednesday,February,Dining,Medium ($10-$50),Regular Classes,Lecture,Wednesday,Class Period
+2025-02-25,PETCO 1217,Debit Card,-57.46,2428.94,Posted,Debit,57.46,Tuesday,February,Other,Large ($50-$100),Regular Classes,Quiz,Tuesday,Assessment Period
+2025-02-25,365 MARKET K 888 432-3,Debit Card,-2.45,2486.4,Posted,Debit,2.45,Tuesday,February,Groceries,Small (Less than $10),Regular Classes,Quiz,Tuesday,Assessment Period
+2025-02-24,Zelle® Payment from Emeranzia Robinson,Direct Payment,500.0,2488.85,Posted,Credit,500.0,Monday,February,Banking & Investments,Very Large (More than $100),Regular Classes,Lecture,Monday,Class Period
+2025-02-24,SAFEWAY #3255,Debit Card,-35.93,1988.85,Posted,Debit,35.93,Monday,February,Groceries,Medium ($10-$50),Regular Classes,Lecture,Monday,Class Period
+2025-02-24,EXXON MSO46021,Debit Card,-54.3,2024.78,Posted,Debit,54.3,Monday,February,Transportation,Large ($50-$100),Regular Classes,Lecture,Monday,Class Period
+2025-02-24,Zelle® Payment to Eme,Direct Payment,-50.0,2079.08,Posted,Debit,50.0,Monday,February,Banking & Investments,Large ($50-$100),Regular Classes,Lecture,Monday,Class Period
+2025-02-24,ROBINHOOD,Direct Payment,-20.0,2129.08,Posted,Debit,20.0,Monday,February,Banking & Investments,Medium ($10-$50),Regular Classes,Lecture,Monday,Class Period
+2025-02-24,ROBINHOOD,Direct Payment,-20.0,2149.08,Posted,Debit,20.0,Monday,February,Banking & Investments,Medium ($10-$50),Regular Classes,Lecture,Monday,Class Period
+2025-02-23,365 MARKET K 888 432-3,Debit Card,-2.45,2169.08,Posted,Debit,2.45,Sunday,February,Groceries,Small (Less than $10),Weekend,No Class,Sunday,Weekend
+2025-02-23,365 MARKET K 888 432-3,Debit Card,-1.75,2171.53,Posted,Debit,1.75,Sunday,February,Groceries,Small (Less than $10),Weekend,No Class,Sunday,Weekend
+2025-02-23,CHIPOTLE MEX GR ONLINE,Debit Card,-19.89,2173.28,Posted,Debit,19.89,Sunday,February,Dining,Medium ($10-$50),Weekend,No Class,Sunday,Weekend
+2025-02-23,SAFEWAY #3255,Debit Card,-25.76,2193.17,Posted,Debit,25.76,Sunday,February,Groceries,Medium ($10-$50),Weekend,No Class,Sunday,Weekend
+2025-02-22,CARUSOS SANDWICHES AN,Debit Card,-30.4,2218.93,Posted,Debit,30.4,Saturday,February,Dining,Medium ($10-$50),Weekend,No Class,Saturday,Weekend
+2025-02-21,SQ *THOMAS HAMMER COFF,Debit Card,-8.97,2249.33,Posted,Debit,8.97,Friday,February,Dining,Small (Less than $10),Regular Classes,Lecture,Friday,Class Period
+2025-02-21,GONZAGA QDOBA,Debit Card,-22.5,2258.3,Posted,Debit,22.5,Friday,February,Dining,Medium ($10-$50),Regular Classes,Lecture,Friday,Class Period
+2025-02-20,Zelle® Payment to Eme,Direct Payment,-5.0,2280.8,Posted,Debit,5.0,Thursday,February,Banking & Investments,Small (Less than $10),Regular Classes,Quiz,Thursday,Assessment Period
+2025-02-20,Mobile Check Deposit,Check Deposit,2000.0,2285.8,Posted,Credit,2000.0,Thursday,February,Banking & Investments,Very Large (More than $100),Regular Classes,Quiz,Thursday,Assessment Period
+2025-02-19,PARKRITE,Debit Card,-5.0,285.8,Posted,Debit,5.0,Wednesday,February,Parking,Small (Less than $10),Regular Classes,Lecture,Wednesday,Class Period
+2025-02-19,AMAZON RETAIL,Debit Card,-20.64,290.8,Posted,Debit,20.64,Wednesday,February,Other,Medium ($10-$50),Regular Classes,Lecture,Wednesday,Class Period
+2025-02-18,VENMO,Direct Payment,-22.0,311.44,Posted,Debit,22.0,Tuesday,February,Banking & Investments,Medium ($10-$50),Regular Classes,Lecture,Tuesday,Class Period
+2025-02-17,SQ *PANHANDLE CONE & C,Debit Card,-10.6,333.44,Posted,Debit,10.6,Monday,February,Other,Medium ($10-$50),President Holiday,Break,Monday,Break
+2025-02-17,GONZAGA CSTORE,Debit Card,-5.99,344.04,Posted,Debit,5.99,Monday,February,Dining,Small (Less than $10),President Holiday,Break,Monday,Break
+2025-02-17,GONZAGA QDOBA,Debit Card,-11.25,350.03,Posted,Debit,11.25,Monday,February,Dining,Medium ($10-$50),President Holiday,Break,Monday,Break
+2025-02-17,MIZUNA,Debit Card,-118.59,361.28,Posted,Debit,118.59,Monday,February,Dining,Very Large (More than $100),President Holiday,Break,Monday,Break
+2025-02-17,SQ *HEART OF GOLD JEWE,Debit Card,-106.0,479.87,Posted,Debit,106.0,Monday,February,Other,Very Large (More than $100),President Holiday,Break,Monday,Break
+2025-02-15,Zelle® Payment from Emeranzia Robinson,Direct Payment,30.0,585.87,Posted,Credit,30.0,Saturday,February,Banking & Investments,Medium ($10-$50),Weekend,No Class,Saturday,Weekend
+2025-02-15,GONZAGA CSTORE,Debit Card,-9.28,555.87,Posted,Debit,9.28,Saturday,February,Dining,Small (Less than $10),Weekend,No Class,Saturday,Weekend
+2025-02-14,CHIPOTLE MEX GR ONLINE,Debit Card,-14.61,565.15,Posted,Debit,14.61,Friday,February,Dining,Medium ($10-$50),Regular Classes,Lecture,Friday,Class Period
+2025-02-13,SAFEWAY #3255,Debit Card,-26.68,579.76,Posted,Debit,26.68,Thursday,February,Groceries,Medium ($10-$50),Regular Classes,Exam,Thursday,Assessment Period
+2025-02-12,GONZAGA QDOBA,Debit Card,-11.25,606.44,Posted,Debit,11.25,Wednesday,February,Dining,Medium ($10-$50),Regular Classes,Exam,Wednesday,Assessment Period
+2025-02-11,KING OF RAMEN,Debit Card,-40.13,617.69,Posted,Debit,40.13,Tuesday,February,Dining,Medium ($10-$50),Regular Classes,Lecture,Tuesday,Class Period
+2025-02-10,GONZAGA UNIV  STAR,Debit Card,-9.5,657.82,Posted,Debit,9.5,Monday,February,Other,Small (Less than $10),Regular Classes,Lecture,Monday,Class Period
+2025-02-09,SQ *THOMAS HAMMER COFF,Debit Card,-8.2,667.32,Posted,Debit,8.2,Sunday,February,Dining,Small (Less than $10),Weekend,No Class,Sunday,Weekend
+2025-02-09,TARGET T-2857,Debit Card,-56.54,675.52,Posted,Debit,56.54,Sunday,February,Other,Large ($50-$100),Weekend,No Class,Sunday,Weekend
+2025-02-07,TRADER JOE S #15 TRADER,Debit Card,-11.43,732.06,Posted,Debit,11.43,Friday,February,Groceries,Medium ($10-$50),Regular Classes,Lecture,Friday,Class Period
+2025-02-07,GONZAGA CSTORE,Debit Card,-4.99,743.49,Posted,Debit,4.99,Friday,February,Dining,Small (Less than $10),Regular Classes,Lecture,Friday,Class Period
+2025-02-07,GONZAGA QDOBA,Debit Card,-22.5,748.48,Posted,Debit,22.5,Friday,February,Dining,Medium ($10-$50),Regular Classes,Lecture,Friday,Class Period
+2025-02-07,GONZAGA CSTORE,Debit Card,-2.39,770.98,Posted,Debit,2.39,Friday,February,Dining,Small (Less than $10),Regular Classes,Lecture,Friday,Class Period
+2025-02-07,COMCAST BELLINGHAM,Debit Card,-29.99,773.37,Posted,Debit,29.99,Friday,February,Utilities,Medium ($10-$50),Regular Classes,Lecture,Friday,Class Period
+2025-02-05,Cooper George,Direct Payment,-1660.32,803.36,Posted,Debit,1660.32,Wednesday,February,Rent,Very Large (More than $100),Regular Classes,Lecture,Wednesday,Class Period
+2025-02-04,Zelle® Payment from Emeranzia Robinson,Direct Payment,120.0,2463.68,Posted,Credit,120.0,Tuesday,February,Banking & Investments,Very Large (More than $100),Regular Classes,Quiz,Tuesday,Assessment Period
+2025-02-02,GONZAGA CSTORE,Debit Card,-26.55,2343.68,Posted,Debit,26.55,Sunday,February,Dining,Medium ($10-$50),Weekend,No Class,Sunday,Weekend
+2025-02-02,Zelle® Payment to Eme,Direct Payment,-5.0,2370.23,Posted,Debit,5.0,Sunday,February,Banking & Investments,Small (Less than $10),Weekend,No Class,Sunday,Weekend
+2025-02-01,COSTCO WHSE #0670,Debit Card,-265.03,2375.23,Posted,Debit,265.03,Saturday,February,Groceries,Very Large (More than $100),Weekend,No Class,Saturday,Weekend
+2025-01-31,Interest earned,Interest Earned,0.26,2640.26,Posted,Credit,0.26,Friday,January,Banking & Investments,Small (Less than $10),Regular Classes,Lecture,Friday,Class Period
+2025-01-31,GONZAGA U - CASHNET,Debit Card,-21.8,2640.0,Posted,Debit,21.8,Friday,January,Utilities,Medium ($10-$50),Regular Classes,Lecture,Friday,Class Period
+2025-01-31,MCDONALD'S F36304,Debit Card,-22.41,2661.8,Posted,Debit,22.41,Friday,January,Dining,Medium ($10-$50),Regular Classes,Lecture,Friday,Class Period
+2025-01-31,SQ *THOMAS HAMMER COFF,Debit Card,-7.38,2684.21,Posted,Debit,7.38,Friday,January,Dining,Small (Less than $10),Regular Classes,Lecture,Friday,Class Period
+2025-01-29,HUCKLEBERRY'S #,Debit Card,-7.62,2691.59,Posted,Debit,7.62,Wednesday,January,Groceries,Small (Less than $10),Regular Classes,Lecture,Wednesday,Class Period
+2025-01-29,SQ *WHITE DOG COFFEE,Debit Card,-25.4,2699.21,Posted,Debit,25.4,Wednesday,January,Dining,Medium ($10-$50),Regular Classes,Lecture,Wednesday,Class Period
+2025-01-28,KEY BANK,Deposit,2000.0,2724.61,Posted,Credit,2000.0,Tuesday,January,Other,Very Large (More than $100),Regular Classes,Quiz,Tuesday,Assessment Period
+2025-01-27,TACO BELL 038940,Debit Card,-28.02,724.61,Posted,Debit,28.02,Monday,January,Dining,Medium ($10-$50),Regular Classes,Lecture,Monday,Class Period
+2025-01-26,PMUSA 157080 SPOKANE -,Debit Card,-2.05,752.63,Posted,Debit,2.05,Sunday,January,Parking,Small (Less than $10),Weekend,No Class,Sunday,Weekend
+2025-01-24,Zelle® Payment from Emeranzia Robinson,Direct Payment,750.0,754.68,Posted,Credit,750.0,Friday,January,Banking & Investments,Very Large (More than $100),Regular Classes,Lecture,Friday,Class Period
+2025-01-19,GONZAGA QDOBA,Debit Card,-22.5,4.68,Posted,Debit,22.5,Sunday,January,Dining,Medium ($10-$50),Weekend,No Class,Sunday,Weekend
+2025-01-19,TARGET T-2857,Debit Card,-26.15,27.18,Posted,Debit,26.15,Sunday,January,Other,Medium ($10-$50),Weekend,No Class,Sunday,Weekend
+2025-01-18,COSTCO WHSE #0670,Debit Card,-10.84,53.33,Posted,Debit,10.84,Saturday,January,Groceries,Medium ($10-$50),Weekend,No Class,Saturday,Weekend
+2025-01-18,Zelle® Payment from Emeranzia Robinson,Direct Payment,3.0,64.17,Posted,Credit,3.0,Saturday,January,Banking & Investments,Small (Less than $10),Weekend,No Class,Saturday,Weekend
+2025-01-18,GONZAGA QDOBA,Debit Card,-11.25,61.17,Posted,Debit,11.25,Saturday,January,Dining,Medium ($10-$50),Weekend,No Class,Saturday,Weekend
+2025-01-17,GONZAGA CSTORE,Debit Card,-4.19,72.42,Posted,Debit,4.19,Friday,January,Dining,Small (Less than $10),Regular Classes,Lecture,Friday,Class Period
+2025-01-15,SAFEWAY #3255,Debit Card,-18.94,76.61,Posted,Debit,18.94,Wednesday,January,Groceries,Medium ($10-$50),Regular Classes,Lecture,Wednesday,Class Period
+2025-01-13,Zelle® Payment to Eme,Direct Payment,-15.0,95.55,Posted,Debit,15.0,Monday,January,Banking & Investments,Medium ($10-$50),Christmas Holiday,Break,Monday,Break
+2025-01-11,LEBANON RESTAURANT & C,Debit Card,-38.14,110.55,Posted,Debit,38.14,Saturday,January,Dining,Medium ($10-$50),Weekend,Break,Saturday,Weekend
+2025-01-09,WM SUPERC Wal-Mart Sup,Debit Card,-64.68,148.69,Posted,Debit,64.68,Thursday,January,Groceries,Large ($50-$100),Christmas Holiday,Break,Thursday,Break
+2025-01-09,AMAZON RETAIL,Debit Card,-53.3,213.37,Posted,Debit,53.3,Thursday,January,Other,Large ($50-$100),Christmas Holiday,Break,Thursday,Break
+2025-01-07,TACO BELL 738936,Debit Card,-23.61,266.67,Posted,Debit,23.61,Tuesday,January,Dining,Medium ($10-$50),Christmas Holiday,Break,Tuesday,Break
+2025-01-07,OPENAI *CHATGPT SUBSCR,Debit Card,-21.84,290.28,Posted,Debit,21.84,Tuesday,January,Subscriptions,Medium ($10-$50),Christmas Holiday,Break,Tuesday,Break
+2025-01-06,TRADER JOE S #15 TRADER,Debit Card,-96.2,312.12,Posted,Debit,96.2,Monday,January,Groceries,Large ($50-$100),Christmas Holiday,Break,Monday,Break
+2025-01-05,Riot* AN5NPSPRQMKE,Debit Card,-10.91,408.32,Posted,Debit,10.91,Sunday,January,Other,Medium ($10-$50),Weekend,Break,Sunday,Weekend
+2025-01-04,CRESCENT MARKET,Debit Card,-48.25,419.23,Posted,Debit,48.25,Saturday,January,Groceries,Medium ($10-$50),Weekend,Break,Saturday,Weekend
+2025-01-02,Zelle® Payment from Emeranzia Robinson,Direct Payment,120.0,467.48,Posted,Credit,120.0,Thursday,January,Banking & Investments,Very Large (More than $100),Christmas Holiday,Break,Thursday,Break
+2025-01-02,Cooper George,Direct Payment,-1680.12,347.48,Posted,Debit,1680.12,Thursday,January,Rent,Very Large (More than $100),Christmas Holiday,Break,Thursday,Break
+2024-12-31,Interest earned,Interest Earned,0.5,2027.6,Posted,Credit,0.5,Tuesday,December,Banking & Investments,Small (Less than $10),Christmas Holiday,Break,Tuesday,Break
+2024-12-31,AMAZON RETAIL,Debit Card,-39.3,2027.1,Posted,Debit,39.3,Tuesday,December,Other,Medium ($10-$50),Christmas Holiday,Break,Tuesday,Break
+2024-12-30,CHICK-FIL-A #04046,Debit Card,-18.57,2066.4,Posted,Debit,18.57,Monday,December,Dining,Medium ($10-$50),Christmas Holiday,Break,Monday,Break
+2024-12-28,I LUV TERIYAKI,Debit Card,-25.81,2084.97,Posted,Debit,25.81,Saturday,December,Dining,Medium ($10-$50),Weekend,Break,Saturday,Weekend
+2024-12-26,SQ *URBAN CITY BREW CO,Debit Card,-35.05,2110.78,Posted,Debit,35.05,Thursday,December,Dining,Medium ($10-$50),Christmas Holiday,Break,Thursday,Break
+2024-12-26,CHUNGS TERIYAKI,Debit Card,-97.81,2145.83,Posted,Debit,97.81,Thursday,December,Dining,Large ($50-$100),Christmas Holiday,Break,Thursday,Break
+2024-12-25,Dicks Sporting Goods,Debit Card,-54.59,2243.64,Posted,Debit,54.59,Wednesday,December,Other,Large ($50-$100),Christmas Holiday,Break,Wednesday,Break
+2024-12-24,DIAMOND PARKING,Debit Card,-17.12,2298.23,Posted,Debit,17.12,Tuesday,December,Parking,Medium ($10-$50),Christmas Holiday,Break,Tuesday,Break
+2024-12-24,SQ *THAI STREET-GOURME,Debit Card,-19.99,2315.35,Posted,Debit,19.99,Tuesday,December,Dining,Medium ($10-$50),Christmas Holiday,Break,Tuesday,Break
+2024-12-24,SQ *TRUE NORTH COFFEE,Debit Card,-8.83,2335.34,Posted,Debit,8.83,Tuesday,December,Dining,Small (Less than $10),Christmas Holiday,Break,Tuesday,Break
+2024-12-23,PETSMART # 0373,Debit Card,-48.03,2344.17,Posted,Debit,48.03,Monday,December,Other,Medium ($10-$50),Christmas Holiday,Break,Monday,Break
+2024-12-23,CITY OF SPOKANE ONLINE,Debit Card,-105.0,2392.2,Posted,Debit,105.0,Monday,December,Utilities,Very Large (More than $100),Christmas Holiday,Break,Monday,Break
+2024-12-22,SAFEWAY FUEL1680,Debit Card,-50.47,2497.2,Posted,Debit,50.47,Sunday,December,Transportation,Large ($50-$100),Weekend,Break,Sunday,Weekend
+2024-12-21,Zelle® Payment from Emeranzia Robinson,Direct Payment,750.0,2547.67,Posted,Credit,750.0,Saturday,December,Banking & Investments,Very Large (More than $100),Weekend,Break,Saturday,Weekend
+2024-12-21,COSTCO WHSE #0013,Debit Card,-6.53,1797.67,Posted,Debit,6.53,Saturday,December,Groceries,Small (Less than $10),Weekend,Break,Saturday,Weekend
+2024-12-20,Mobile Check Deposit,Check Deposit,1800.0,1804.2,Posted,Credit,1800.0,Friday,December,Banking & Investments,Very Large (More than $100),Christmas Holiday,Break,Friday,Break
+2024-12-18,TACO BELL 022515,Debit Card,-11.24,4.2,Posted,Debit,11.24,Wednesday,December,Dining,Medium ($10-$50),Christmas Holiday,Break,Wednesday,Break
+2024-12-18,WSDOT GOODTOGO TNB,Debit Card,-5.5,15.44,Posted,Debit,5.5,Wednesday,December,Transportation,Small (Less than $10),Christmas Holiday,Break,Wednesday,Break
+2024-12-17,365 MARKET K 888 432-3,Debit Card,-7.9,20.94,Posted,Debit,7.9,Tuesday,December,Groceries,Small (Less than $10),Christmas Holiday,Break,Tuesday,Break
+2024-12-15,MOSES LAKE CONOC,Debit Card,-50.49,28.84,Posted,Debit,50.49,Sunday,December,Transportation,Large ($50-$100),Weekend,No Class,Sunday,Weekend
+2024-12-14,365 MARKET K 888 432-3,Debit Card,-3.82,79.33,Posted,Debit,3.82,Saturday,December,Groceries,Small (Less than $10),Weekend,No Class,Saturday,Weekend
+2024-12-14,SQ *THOMAS HAMMER COFF,Debit Card,-7.27,83.15,Posted,Debit,7.27,Saturday,December,Dining,Small (Less than $10),Weekend,No Class,Saturday,Weekend
+2024-12-14,GONZAGA QDOBA,Debit Card,-6.69,90.42,Posted,Debit,6.69,Saturday,December,Dining,Small (Less than $10),Weekend,No Class,Saturday,Weekend
+2024-12-14,GONZAGA CSTORE,Debit Card,-5.29,97.11,Posted,Debit,5.29,Saturday,December,Dining,Small (Less than $10),Weekend,No Class,Saturday,Weekend
+2024-12-13,CHIPOTLE ONLINE,Debit Card,-21.04,102.4,Posted,Debit,21.04,Friday,December,Dining,Medium ($10-$50),Finals Week, Exam,Friday,Assessment Period
+2024-12-13,365 MARKET K 888 432-3,Debit Card,-7.9,123.44,Posted,Debit,7.9,Friday,December,Groceries,Small (Less than $10),Finals Week, Exam,Friday,Assessment Period
+2024-12-12,GONZAGA CSTORE,Debit Card,-13.08,131.34,Posted,Debit,13.08,Thursday,December,Dining,Medium ($10-$50),Finals Week, Exam,Thursday,Assessment Period
+2024-12-12,VENMO,Direct Payment,-8.0,144.42,Posted,Debit,8.0,Thursday,December,Banking & Investments,Small (Less than $10),Finals Week, Exam,Thursday,Assessment Period
+2024-12-11,CHEF LUS ASIAN BISTRO,Debit Card,-56.92,152.42,Posted,Debit,56.92,Wednesday,December,Dining,Large ($50-$100),Finals Week, Exam,Wednesday,Assessment Period
+2024-12-08,Zelle® Payment from Emeranzia Robinson,Direct Payment,50.0,209.34,Posted,Credit,50.0,Sunday,December,Banking & Investments,Large ($50-$100),Study Day, Exam,Sunday,Assessment Period
+2024-12-07,Zelle® Payment to Eme,Direct Payment,-50.0,159.34,Posted,Debit,50.0,Saturday,December,Banking & Investments,Large ($50-$100),Study Day, Exam,Saturday,Assessment Period
+2024-12-07,OPENAI *CHATGPT SUBSCR,Debit Card,-21.84,209.34,Posted,Debit,21.84,Saturday,December,Subscriptions,Medium ($10-$50),Study Day, Exam,Saturday,Assessment Period
+2024-12-06,GONZAGA CSTORE,Debit Card,-13.58,231.18,Posted,Debit,13.58,Friday,December,Dining,Medium ($10-$50),Regular Classes,Lecture,Friday,Class Period
+2024-12-06,Cooper George,Direct Payment,-1681.14,244.76,Posted,Debit,1681.14,Friday,December,Rent,Very Large (More than $100),Regular Classes,Lecture,Friday,Class Period
+2024-12-05,GONZAGA CSTORE,Debit Card,-13.58,1925.9,Posted,Debit,13.58,Thursday,December,Dining,Medium ($10-$50),Regular Classes,Lecture,Thursday,Class Period
+2024-12-04,Zelle® Payment to Eme 3,Direct Payment,-50.0,1939.48,Posted,Debit,50.0,Wednesday,December,Banking & Investments,Large ($50-$100),Regular Classes,Lecture,Wednesday,Class Period
+2024-12-04,INSOMNIA COOKIES - S,Debit Card,-11.72,1989.48,Posted,Debit,11.72,Wednesday,December,Dining,Medium ($10-$50),Regular Classes,Lecture,Wednesday,Class Period
+2024-12-04,GONZAGAMEAL,Debit Card,-12.1,2001.2,Posted,Debit,12.1,Wednesday,December,Other,Medium ($10-$50),Regular Classes,Lecture,Wednesday,Class Period
+2024-12-04,GONZAGA CSTORE,Debit Card,-4.59,2013.3,Posted,Debit,4.59,Wednesday,December,Dining,Small (Less than $10),Regular Classes,Lecture,Wednesday,Class Period
+2024-12-04,Mango Tree DT,Debit Card,-48.6,2017.89,Posted,Debit,48.6,Wednesday,December,Dining,Medium ($10-$50),Regular Classes,Lecture,Wednesday,Class Period
+2024-12-04,AMAZON RETAIL,Debit Card,-10.89,2066.49,Posted,Debit,10.89,Wednesday,December,Other,Medium ($10-$50),Regular Classes,Lecture,Wednesday,Class Period
+2024-12-02,Zelle® Payment from Emeranzia Robinson,Direct Payment,145.0,2077.38,Posted,Credit,145.0,Monday,December,Banking & Investments,Very Large (More than $100),Regular Classes,Lecture,Monday,Class Period
+2024-12-02,Mobile Check Deposit,Check Deposit,1200.0,1932.38,Posted,Credit,1200.0,Monday,December,Banking & Investments,Very Large (More than $100),Regular Classes,Lecture,Monday,Class Period
+2024-12-02,VENMO,Direct Payment,-25.0,732.38,Posted,Debit,25.0,Monday,December,Banking & Investments,Medium ($10-$50),Regular Classes,Lecture,Monday,Class Period
+2024-12-01,SHREES GAS ST G,Debit Card,-3.02,757.38,Posted,Debit,3.02,Sunday,December,Transportation,Small (Less than $10),Weekend,No Class,Sunday,Weekend
+2024-12-01,SHREES GAS ST G,Debit Card,-40.46,760.4,Posted,Debit,40.46,Sunday,December,Transportation,Medium ($10-$50),Weekend,No Class,Sunday,Weekend
+2024-11-30,Interest earned,Interest Earned,0.16,800.86,Posted,Credit,0.16,Saturday,November,Banking & Investments,Small (Less than $10),Weekend,No Class,Saturday,Weekend
+2024-11-28,STARBUCKS STORE 1047,Debit Card,-4.88,800.7,Posted,Debit,4.88,Thursday,November,Dining,Small (Less than $10),Thanksgiving Holiday,Break,Thursday,Break
+2024-11-27,CRUMBL SILVERDALE,Debit Card,-28.95,805.58,Posted,Debit,28.95,Wednesday,November,Dining,Medium ($10-$50),Thanksgiving Holiday,Break,Wednesday,Break
+2024-11-26,VENMO,Deposit,800.0,834.53,Posted,Credit,800.0,Tuesday,November,Banking & Investments,Very Large (More than $100),Regular Classes,Lecture,Tuesday,Class Period
+2024-11-26,MARATHON PETRO24,Debit Card,-5.09,34.53,Posted,Debit,5.09,Tuesday,November,Transportation,Small (Less than $10),Regular Classes,Lecture,Tuesday,Class Period
+2024-11-26,TARGET T-2857,Debit Card,-69.82,39.62,Posted,Debit,69.82,Tuesday,November,Other,Large ($50-$100),Regular Classes,Lecture,Tuesday,Class Period
+2024-11-25,AMAZON RETAIL,Debit Card,-31.02,109.44,Posted,Debit,31.02,Monday,November,Other,Medium ($10-$50),Regular Classes,Lecture,Monday,Class Period
+2024-11-24,PETSMART # 2448,Debit Card,-40.3,140.46,Posted,Debit,40.3,Sunday,November,Other,Medium ($10-$50),Weekend,No Class,Sunday,Weekend
+2024-11-24,Zelle® Payment from Emeranzia Robinson,Direct Payment,100.0,180.76,Posted,Credit,100.0,Sunday,November,Banking & Investments,Very Large (More than $100),Weekend,No Class,Sunday,Weekend
+2024-11-24,365 MARKET K 888 432-3,Debit Card,-3.27,80.76,Posted,Debit,3.27,Sunday,November,Groceries,Small (Less than $10),Weekend,No Class,Sunday,Weekend
+2024-11-24,GONZAGA CSTORE,Debit Card,-4.19,84.03,Posted,Debit,4.19,Sunday,November,Dining,Small (Less than $10),Weekend,No Class,Sunday,Weekend
+2024-11-24,Etsy.com*Santasportsor,Debit Card,-22.84,88.22,Posted,Debit,22.84,Sunday,November,Other,Medium ($10-$50),Weekend,No Class,Sunday,Weekend
+2024-11-21,AMAZON MARKETPLACE,Debit Card,-19.61,111.06,Posted,Debit,19.61,Thursday,November,Groceries,Medium ($10-$50),Regular Classes,Exam,Thursday,Assessment Period
+2024-11-21,365 MARKET K 888 432-3,Debit Card,-4.48,130.67,Posted,Debit,4.48,Thursday,November,Groceries,Small (Less than $10),Regular Classes,Exam,Thursday,Assessment Period
+2024-11-20,GONZAGA QDOBA,Debit Card,-11.25,135.15,Posted,Debit,11.25,Wednesday,November,Dining,Medium ($10-$50),Regular Classes,Quiz,Wednesday,Assessment Period
+2024-11-20,GONZAGA CSTORE,Debit Card,-3.79,146.4,Posted,Debit,3.79,Wednesday,November,Dining,Small (Less than $10),Regular Classes,Quiz,Wednesday,Assessment Period
+2024-11-15,MAVERIK #613,Debit Card,-49.87,150.19,Posted,Debit,49.87,Friday,November,Transportation,Medium ($10-$50),Regular Classes,Lecture,Friday,Class Period
+2024-11-14,GONZAGA CSTORE,Debit Card,-4.19,200.06,Posted,Debit,4.19,Thursday,November,Dining,Small (Less than $10),Regular Classes,Lecture,Thursday,Class Period
+2024-11-13,GONZAGA CSTORE,Debit Card,-8.19,204.25,Posted,Debit,8.19,Wednesday,November,Dining,Small (Less than $10),Regular Classes,Exam,Wednesday,Assessment Period
+2024-11-11,Zelle® Payment to Eme 3,Direct Payment,-200.0,212.44,Posted,Debit,200.0,Monday,November,Banking & Investments,Very Large (More than $100),Regular Classes,Quiz,Monday,Assessment Period
+2024-11-11,AMAZON MARKETPLACE,Debit Card,-39.24,412.44,Posted,Debit,39.24,Monday,November,Groceries,Medium ($10-$50),Regular Classes,Quiz,Monday,Assessment Period
+2024-11-10,DOMINO'S 7189,Debit Card,-43.66,451.68,Posted,Debit,43.66,Sunday,November,Dining,Medium ($10-$50),Weekend,No Class,Sunday,Weekend
+2024-11-10,GONZAGA CSTORE,Debit Card,-4.19,495.34,Posted,Debit,4.19,Sunday,November,Dining,Small (Less than $10),Weekend,No Class,Sunday,Weekend
+2024-11-09,WINGSTOP 2601,Debit Card,-13.64,499.53,Posted,Debit,13.64,Saturday,November,Dining,Medium ($10-$50),Weekend,No Class,Saturday,Weekend
+2024-11-08,SQ *THOMAS HAMMER COFF,Debit Card,-6.27,513.17,Posted,Debit,6.27,Friday,November,Dining,Small (Less than $10),Regular Classes,Lecture,Friday,Class Period
+2024-11-07,GONZAGA QDOBA,Debit Card,-11.25,519.44,Posted,Debit,11.25,Thursday,November,Dining,Medium ($10-$50),Regular Classes,Lecture,Thursday,Class Period
+2024-11-06,GONZAGA CSTORE,Debit Card,-8.48,530.69,Posted,Debit,8.48,Wednesday,November,Dining,Small (Less than $10),Regular Classes,Lecture,Wednesday,Class Period
+2024-11-06,GONZAGA CSTORE,Debit Card,-4.0,539.17,Posted,Debit,4.0,Wednesday,November,Dining,Small (Less than $10),Regular Classes,Lecture,Wednesday,Class Period
+2024-11-05,WINGSTOP 2601,Debit Card,-16.92,543.17,Posted,Debit,16.92,Tuesday,November,Dining,Medium ($10-$50),Regular Classes,Lecture,Tuesday,Class Period
+2024-11-05,VENMO,Direct Payment,-100.0,560.09,Posted,Debit,100.0,Tuesday,November,Banking & Investments,Very Large (More than $100),Regular Classes,Lecture,Tuesday,Class Period
+2024-11-03,GONZAGA CSTORE,Debit Card,-6.78,660.09,Posted,Debit,6.78,Sunday,November,Dining,Small (Less than $10),Weekend,No Class,Sunday,Weekend
+2024-11-03,GONZAGA QDOBA,Debit Card,-13.5,666.87,Posted,Debit,13.5,Sunday,November,Dining,Medium ($10-$50),Weekend,No Class,Sunday,Weekend
+2024-11-03,GONZAGA CSTORE,Debit Card,-3.79,680.37,Posted,Debit,3.79,Sunday,November,Dining,Small (Less than $10),Weekend,No Class,Sunday,Weekend
+2024-11-02,GONZAGA CSTORE,Debit Card,-13.47,684.16,Posted,Debit,13.47,Saturday,November,Dining,Medium ($10-$50),Weekend,No Class,Saturday,Weekend
+2024-11-01,FRED-MEYE FRED MEYER 6,Debit Card,-62.09,697.63,Posted,Debit,62.09,Friday,November,Groceries,Large ($50-$100),Regular Classes,Lecture,Friday,Class Period
+2024-11-01,Cooper George,Direct Payment,-1553.51,759.72,Posted,Debit,1553.51,Friday,November,Rent,Very Large (More than $100),Regular Classes,Lecture,Friday,Class Period
