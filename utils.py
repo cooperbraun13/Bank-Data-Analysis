@@ -281,3 +281,55 @@ def get_spending_statistics(bank_df):
         "total": debit_data["Absolute_Amount"].sum(),
         "count": debit_data.shape[0]
     }
+    
+    # Top categories
+    top_categories = debit_data.groupby("Category")["Absolute_Amount"].sum().sort_values(ascending=False)
+    stats["top_categories"] = top_categories
+    
+    # Daily spending averages
+    day_order = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    daily_avg = debit_data.groupby("Day_of_Week")["Absolute_Amount"].mean().reindex(day_order)
+    stats["daily_avg"] = daily_avg
+    
+    return stats
+
+def plot_monthly_spending(bank_df):
+    """ 
+    Plots spending trends over the 7 months
+    """
+    debit_data = bank_df[bank_df["Transaction_Type"] == "Debit"]
+    monthly_spending = debit_data.groupby("Month")["Absolute_Amount"].sum()
+    month_order = ["November", "December", "January", "February", "March", "April"]
+    monthly_spending = monthly_spending.reindex(month_order)
+    
+    plt.figure(figsize=(12, 6))
+    monthly_spending.plot(kind="bar", color="lightblue", edgecolor="black")
+    plt.title("Total Monthly Spending", fontsize=16)
+    plt.xlabel("Month", fontsize=12)
+    plt.ylabel("Total Spending ($)", fontsize=12)
+    plt.xticks(rotation=45)
+    plt.grid(axis="y", alpha=0.3)
+    plt.tight_layout()
+    plt.show()
+    
+    return monthly_spending
+
+def get_period_spending_statistics(merged_df):
+    """ 
+    Analyzes spending patterns across different academic periods
+    """
+    debit_data = merged_df[merged_df["Transaction_Type"] == "Debit"]
+    
+    # Period statistics
+    period_stats = debit_data.groupby("period_type")["Absolute_Amount"].agg(["mean", "median", "count", "sum"])
+    
+    # Category breakdown by period
+    period_category = debit_data.groupby(["period_type", "Category"])["Absolute_Amount"].sum().unstack(fill_value=0)
+    
+    return period_stats, period_category
+
+def run_hypothesis_tests(merged_df):
+    """ 
+    Runs three statistical hypothesis tests on spending data
+    """
+    debit_data = merged_df[merged_df["Transaction Type"] == "Debit"]
