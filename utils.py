@@ -3,6 +3,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy import stats
+from sklearn.preprocessing import LabelEncoder, MinMaxScaler
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier, plot_tree
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score
 
 def load_data(bank_path, academic_path):
     """ 
@@ -262,3 +267,17 @@ def plot_spending_by_period(merged_df):
     plt.grid(axis="y", alpha=0.3)
     plt.tight_layout()
     plt.show()
+    
+def get_spending_statistics(bank_df):
+    """ 
+    Returns key statistics about my spending patterns
+    """
+    debit_data = bank_df[bank_df["Transaction_Type"] == "Debit"]
+    stats = {
+        "average": debit_data["Absolute_Amount"].mean(),
+        "median": debit_data["Absolute_Amount"].median(),
+        "max": debit_data["Absolute_Amount"].max(),
+        "min": debit_data["Absolute_Amount"].min(),
+        "total": debit_data["Absolute_Amount"].sum(),
+        "count": debit_data.shape[0]
+    }
