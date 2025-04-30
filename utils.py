@@ -124,6 +124,11 @@ def categorize_transaction(description):
         if keyword in description:
             return "Groceries"
         
+    # Check retail keywords
+    for keyword in retail_keywords:
+        if keyword in description:
+            return "Retail"
+        
     # Check utilities keywords
     for keyword in utilities_keywords:
         if keyword in description:
