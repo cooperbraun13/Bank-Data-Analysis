@@ -227,17 +227,52 @@ def plot_spending_distribution(bank_df, amount_limit=2000):
     
 def plot_spending_by_category(bank_df):
     """ 
-    Plots total spending by category as a pie chart
+    Plots total spending by category with a pie chart
     """
     debit_data = bank_df[bank_df["Transaction_Type"] == "Debit"]
     spending_by_category = debit_data.groupby("Category")["Absolute_Amount"].sum().sort_values(ascending=False)
     
-    plt.figure(figsize=(12, 8))
-    plt.pie(spending_by_category, labels=spending_by_category.index, autopct="%1.1f%%", startangle=30, shadow=False)
-    plt.title("Total Spending by Category", fontsize=16)
+    # Calculate total spending for the title
+    total_spent = spending_by_category.sum()
+    
+    # Cool explode array to emphasize top 3 categories
+    explode = [0.05] * len(spending_by_category)
+    for i in range(3, len(explode)):
+        explode[i] = 0.01
+    
+    # More informative labels with amounts
+    labels = [f"{cat}\n${amt:.2f}" for cat, amt in zip(spending_by_category.index, spending_by_category)]
+    
+    plt.figure(figsize=(14, 10))
+    wedges, texts, autotexts = plt.pie(
+        spending_by_category, 
+        labels=None,
+        autopct='%1.1f%%', 
+        startangle=90, 
+        shadow=False,
+        explode=explode,
+        wedgeprops={'edgecolor': 'white', 'linewidth': 1},
+        textprops={'fontsize': 12, 'fontweight': 'bold'}
+    )
+    
+    # Customize percentage text
+    for autotext in autotexts:
+        autotext.set_color('white')
+        autotext.set_fontweight('bold')
+    
+    # Add title with total amount
+    plt.title(f"Total Spending by Category (${total_spent:.2f})", fontsize=18, pad=20)
+    plt.legend(
+        wedges, 
+        labels, 
+        title="Categories",
+        loc="center left", 
+        bbox_to_anchor=(1, 0.5),
+        fontsize=12
+    )
+    
     plt.axis("equal")
     plt.tight_layout()
-    plt.legend(loc="best")
     plt.show()
     
 def plot_spending_by_day(bank_df):
