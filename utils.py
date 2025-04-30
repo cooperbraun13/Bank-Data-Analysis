@@ -256,7 +256,7 @@ def plot_spending_by_period(merged_df):
     Plots average spending by academic period
     """
     merged_debit = merged_df[merged_df["Transaction_Type"] == "Debit"]
-    spending_by_period = merged_debit.groupby("period_type")["Absolute_Amount"].mean()
+    spending_by_period = merged_debit.groupby("period_type")["Absolute_Amount"].median()
     
     plt.figure(figsize=(10, 6))
     spending_by_period.plot(kind="bar", color="lightgreen", edgecolor="black")
