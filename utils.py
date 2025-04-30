@@ -333,3 +333,11 @@ def run_hypothesis_tests(merged_df):
     Runs three statistical hypothesis tests on spending data
     """
     debit_data = merged_df[merged_df["Transaction Type"] == "Debit"]
+    
+    # Test 1: Assessment periods vs Class periods
+    
+    
+    # Test 2: Weekend vs Weekday periods
+    
+    
+    # Test 3: Break vs Regular periods
