@@ -199,36 +199,37 @@ def merge_datasets(bank_df, academic_df):
     
     return merged_df
     
-def plot_spending_distribution(bank_df, amount_limit=2000):
+def plot_spending_distribution(bank_df, amount_limit=2000, num_bins=10):
     """ 
-    Plots spending distribution
+    Plots spending distribution as a box plot
     """
     debit_data = bank_df[bank_df["Transaction_Type"] == "Debit"]
     
+    # Filter data based on limit
+    filtered_data = debit_data[debit_data["Absolute_Amount"] <= amount_limit]
+    
     plt.figure(figsize=(10, 6))
-    plt.hist(debit_data["Absolute_Amount"], bins=50, edgecolor="black")
+    plt.boxplot(filtered_data["Absolute_Amount"], vert=False, showmeans=True,
+                meanprops={"marker":"o", "markerfacecolor":"red", "markeredgecolor":"black"})
     plt.title("Distribution of Spending Amounts", fontsize=16)
     plt.xlabel("Amount ($)", fontsize=12)
-    plt.ylabel("Frequency", fontsize=12)
-    plt.xlim(0, amount_limit)
-    plt.grid(axis="y", alpha=0.3)
+    plt.grid(axis="x", alpha=0.3)
+    plt.tight_layout()
     plt.show()
     
 def plot_spending_by_category(bank_df):
     """ 
-    Plots total spending by category
+    Plots total spending by category as a pie chart
     """
     debit_data = bank_df[bank_df["Transaction_Type"] == "Debit"]
     spending_by_category = debit_data.groupby("Category")["Absolute_Amount"].sum().sort_values(ascending=False)
     
-    plt.figure(figsize=(12, 6))
-    spending_by_category.plot(kind="bar", color="skyblue", edgecolor="black")
+    plt.figure(figsize=(12, 8))
+    plt.pie(spending_by_category, labels=spending_by_category.index, autopct="%1.1f%%", startangle=90, shadow=False)
     plt.title("Total Spending by Category", fontsize=16)
-    plt.xlabel("Category", fontsize=12)
-    plt.ylabel("Total Spending ($)", fontsize=12)
-    plt.xticks(rotation=45)
-    plt.grid(axis="y", alpha=0.3)
+    plt.axis("equal")
     plt.tight_layout()
+    plt.legend(loc="best")
     plt.show()
     
 def plot_spending_by_day(bank_df):
