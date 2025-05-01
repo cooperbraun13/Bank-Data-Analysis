@@ -410,3 +410,81 @@ def test_weekend_vs_weekday_spending(merged_df):
         "df": df
     }
     
+def test_assessment_vs_class_spending(merged_df):
+    """ 
+    Performs t-test comparing spending during assessment periods vs class periods and returns stats for a one-tailed test
+    """
+    debit_data = merged_df[merged_df["Transaction_Type"] == "Debit"]
+    
+    # Extract spending data
+    assessment_spending = debit_data[debit_data["period_type"] == "Assessment Period"]["Absolute_Amount"]
+    class_spending = debit_data[debit_data["period_type"] == "Class Period"]["Absolute_Amount"]
+    
+    # Basic stats
+    assessment_mean = assessment_spending.mean()
+    class_mean = class_spending.mean()
+    assessment_std = assessment_spending.std()
+    class_std = class_spending.std()
+    assessment_n = len(assessment_spending)
+    class_n = len(class_spending)
+    
+    # Perform t-test
+    t_stat, p_value = stats.ttest_ind(assessment_spending, class_spending, equal_var=False)
+    
+    # Adjust p-value for one-tailed test, testing if assessment < class
+    p_value_one_tailed = p_value / 2 if t_stat < 0 else 1 - (p_value / 2)
+    
+    # Critical value, one-tailed, alpha = 0.05
+    df = min(assessment_n - 1, class_n - 1)
+    t_critical = stats.t.ppf(0.95, df)
+    
+    return {
+        "assessment_mean": assessment_mean,
+        "class_mean": class_mean,
+        "assessment_std": assessment_std,
+        "class_std": class_std,
+        "assessment_n": assessment_n,
+        "class_n": class_n,
+        "t_stat": t_stat,
+        "p_value": p_value_one_tailed,
+        "t_critical": t_critical,
+        "df": df
+    }
+    
+def test_break_vs_regular_spending(merged_df):
+    """ 
+    Performs t-test comparing spending during breaks vs regular periods and returns stats for two-tailed test
+    """
+    debit_data = merged_df[merged_df["Transaction_Type"] == "Debit"]
+    
+    # Extract spending data
+    break_spending = debit_data[debit_data["period_type"] == "Break"]["Absolute_Amount"]
+    regular_spending = debit_data[debit_data["period_type"].isin(["Class Period", "Assessment Period"])]["Absolute_Amount"]
+    
+    # Basic stats
+    break_mean = break_spending.mean()
+    regular_mean = regular_spending.mean()
+    break_std = break_spending.std()
+    regular_std = regular_spending.std()
+    break_n = len(break_spending)
+    regular_n = len(regular_spending)
+    
+    # Perform t-test
+    t_stat, p_value = stats.ttest_ind(break_spending, regular_spending, equal_var=False)
+    
+    # Critical value, two-tailed, alpha = 0.05
+    df = min(break_n - 1, regular_n - 1)
+    t_critical = stats.t.ppf(0.975, df)
+    
+    return {
+        "break_mean": break_mean,
+        "regular_mean": regular_mean,
+        "break_std": break_std,
+        "regular_std": regular_std,
+        "break_n": break_n,
+        "regular_n": regular_n,
+        "t_stat": t_stat,
+        "p_value": p_value,
+        "t_critical": t_critical,
+        "df": df
+    }
