@@ -488,3 +488,133 @@ def test_break_vs_regular_spending(merged_df):
         "t_critical": t_critical,
         "df": df
     }
+    
+def prepare_classification_data(merged_df):
+    """ 
+    Prepares data for classification tasks using LabelEncoder
+    """
+    debit_data = merged_df[merged_df["Transaction_Type"] == "Debit"].copy()
+    
+    # Create label encoders for categorical variables
+    day_encoder = LabelEncoder()
+    period_encoder = LabelEncoder()
+    category_encoder = LabelEncoder()
+    
+    # Apply encoders
+    debit_data["Day_Encoded"] = day_encoder.fit_transform(debit_data["Day_of_Week"])
+    debit_data["Period_Encoded"] = period_encoder.fit_transform(debit_data["period_type"])
+    debit_data["Category_Encoded"] = category_encoder.fit_transform(debit_data["Category"])
+    
+    # Features and target
+    X = debit_data[["Day_Encoded", "Period_Encoded", "Category_Encoded"]]
+    y = debit_data["Spending_Bin"]
+    
+    # Scale features
+    scaler = MinMaxScaler()
+    X_scaled = scaler.fit_transform(X)
+    
+    # Split data
+    X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.3, random_state=0)
+    
+    # Class distribution
+    class_distribution = y.value_counts(normalize=True) * 100
+    
+    # Store encoders
+    encoders = {
+        "day": day_encoder,
+        "period": period_encoder,
+        "category": category_encoder,
+        "day_classes": list(day_encoder.classes_),
+        "period_classes": list(period_encoder.classes_),
+        "category_classes": list(category_encoder.classes_)
+    }
+    
+    return X_train, X_test, y_train, y_test, class_distribution, encoders
+
+def train_knn_classifier(X_train, y_train, k=5):
+    """ 
+    Trains a kNN classifier
+    """
+    # Create and train kNN model
+    knn_model = KNeighborsClassifier(n_neighbors=k)
+    knn_model.fit(X_train, y_train)
+    
+    return knn_model
+
+def train_decision_tree_classifier(X_train, y_train, max_depth=None):
+    """ 
+    Trains a Decision Tree Classifier
+    """
+    # Create and train a Decision Tree model
+    dt_model = DecisionTreeClassifier(random_state=0, max_depth=max_depth)
+    dt_model.fit(X_train, y_train)
+    
+    return dt_model
+
+def evaluate_classifier(model, X_test, y_test, model_name):
+    """ 
+    Evaluates a classifier with accuracy metric
+    """
+    # Make predictions
+    y_pred = model.predict(X_test)
+    
+    # Calculate accuracy
+    accuracy = accuracy_score(y_test, y_pred)
+    
+    # Make confusion matrix visual
+    labels = sorted(list(set(y_test)))
+    cm = np.zeros((len(labels), len(labels)))
+    
+    for i, true_label in enumerate(labels):
+        for j, pred_label in enumerate(labels):
+            cm[i, j] = np.sum((y_test == true_label) & (y_pred == pred_label))
+            
+    # Plot confusion matrix
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(cm, annot=True, fmt="g", cmap="Blues", xticklabels=labels, yticklabels=labels)
+    plt.title(f"{model_name} Confusion Matrix")
+    plt.xlabel("Predicted Label")
+    plt.ylabel("True Label")
+    plt.tight_layout()
+    plt.show()
+    
+    # Calculate per-class accuracy
+    class_accuracy = {}
+    for label in labels:
+        true_positives = np.sum((y_test == label) & (y_pred == label))
+        total = np.sum(y_test == label)
+        class_accuracy[label] = true_positives / total if total > 0 else 0
+        
+    return accuracy, class_accuracy
+
+def visualize_decision_tree(dt_model, feature_names, class_names, max_depth=3):
+    """ 
+    Visualizes the decision tree
+    """
+    plt.figure(figsize=(15, 10))
+    plot_tree(dt_model,
+              feature_names=feature_names,
+              class_names=class_names,
+              filled=True,
+              rounded=True,
+              max_depth=max_depth)
+    plt.title(f"Decision Tree (Limited to Depth {max_depth})")
+    plt.tight_layout()
+    plt.show()
+    
+def compare_classifier_performance(knn_accuracy, dt_accuracy):
+    """
+    Compares performance of different classifiers 
+    """
+    models = ["kNN", "Decision Tree"]
+    accuracies = [knn_accuracy, dt_accuracy]
+    
+    plt.figure(figsize=(8, 6))
+    sns.barplot(x=models, y=accuracies)
+    plt.title("Model Accuracy Comparison")
+    plt.ylabel("Accuracy")
+    plt.ylim(0, 1)
+    for i, acc in enumerate(accuracies):
+        plt.text(i, acc + 0.01, f"{acc:.3f}", ha="center")
+    plt.tight_layout()
+    plt.show()
