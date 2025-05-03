@@ -1,3 +1,15 @@
+"""
+ Programmer: Cooper Braun
+ Class: CPSC-222-01, Spring 2025
+ Data Assignment #8
+ 5/02/25
+ 
+ Description: Utility functions for the Quantified Self Project that analyze personal spending
+ patterns in relation to academic schedule. Includes data loading/cleaning, visualization, 
+ statistical testing, and machine learning classification to identify and model relationships
+ between academic periods and financial behavior.
+ """
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
